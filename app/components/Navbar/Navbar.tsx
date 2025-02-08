@@ -14,11 +14,11 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#/', current: true },
-    { name: 'Courses', href: '#courses', current: false },
-    { name: 'Mentor', href: '#mentor', current: false },
-    { name: 'Group', href: '/', current: false },
-    { name: 'Testimonial', href: '#testimonial', current: false },
+    { name: 'Home', href: '/', current: true },
+    { name: 'Courses', href: '/courses', current: false },
+    // { name: 'Mentor', href: '#mentor', current: false },
+    // { name: 'Group', href: '/', current: false },
+    // { name: 'Testimonial', href: '#testimonial', current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -68,7 +68,7 @@ const Navbar = () => {
                                     src={'/assets/logo/logo.svg'}
                                     alt="dsign-logo"
                                 /> */}
-                               <h1>CodePaathshala.</h1> 
+                               <h1 className="text-midnightblue text-2xl sm:text-3xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0">CodePaathshala.</h1>
                             </div>
 
                             {/* LINKS */}
